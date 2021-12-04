@@ -2,19 +2,19 @@
 ; BIND data file for local loopback interface
 ;
 $TTL	604800
-@	IN	SOA	ns1.iamkiraz.tk. admin.iamkiraz.tk. (
+@	IN	SOA	ns1.thilankad.com. admin.thilankad.com. (
 			      5		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@	IN	NS	ns1.iamkiraz.tk.
-@       IN      NS      ns2.iamkiraz.tk.
+@	IN	NS	ns1.thilankad.com.
+@       IN      NS      ns2.thilankad.com.
 
-ns1.iamkiraz.tk.          IN      A       10.166.0.2
-ns2.iamkiraz.tk.          IN      A       10.166.0.3
+ns1.thilankad.com.          IN      A       10.166.0.2
+ns2.thilankad.com.          IN      A       10.166.0.3
 
-iamkiraz.tk.        IN      A      35.225.94.12
-www.iamkiraz.tk.        IN      A     35.225.94.12 
+thilankad.com.        IN      A      35.225.94.12
+www.thilankad.com.        IN      A     35.225.94.12 
 

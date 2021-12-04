@@ -1,7 +1,7 @@
 view "usa" {
   match-clients { AD; AL; AM; AT; AX; AZ; BA; BE; BG; BY; CH; CZ; DE; DK; EE; ES; FI; FO; FR; GB; GG; GI; GR; GS; HR; HU; IE; IM; IS; IT; JE; KZ; LI; LT; LU; LV; MC; MD; ME; MK; MT; NL; NO; PL; PT; RO; RS; SE; SI; SJ; SK; SM; UA; VA; AG; AI; AW; BB; BL; BM; BS; BZ; CA; CR; CU; DM; DO; GD; GL; GP; GT; HN; HT; JM; KN; KY; LC; MF; MQ; MS; MX; NI; PA; PM; PR; SV; SX; TC; TT; UM; US; VC; VG; VI; AR; BO; BQ; BR; BV; CL; CO; CW; EC; FK; GF; GY; PE; PY; SR; UY; VE; };
   recursion no;
-  zone "iamkiraz.lk" {
+  zone "thilankad.com" {
     type secondary;
     masters { 10.166.0.2; };
     file "/etc/bind/bind/zones/db.usa";
@@ -11,7 +11,7 @@ view "usa" {
 view "asia" {
   match-clients { AO; BF; BI; BJ; BW; CD; CF; CG; CI; CM; CV; DJ; DZ; ER; ET; GA; GH; GM; GN; GQ; GW; KE; KM; LR; LS; LY; MA; MG; ML; MR; MU; MW; MZ; NA; NE; NG; RE; RW; SC; SD; SL; SN; SO; SS; ST; SZ; TD; TG; TN; TZ; UG; YT; ZA; ZM; ZW; AE; AF; BD; BH; BN; BT; CN; CY; EG; GE; HK; ID; IL; IN; IO; IQ; IR; JO; JP; KG; KH; KP; KR; KW; LA; LB; LK; MM; MN; MO; MV; MY; NP; OM; PH; PK; PS; QA; RU; SA; SG; SY; TH; TJ; TL; TM; TR; TW; UZ; VN; YE; AS; AU; CK; FJ; FM; GU; KI; MH; MP; NC; NF; NR; NU; NZ; PF; PG; PN; PW; SB; TK; TO; TV; VU; WF; WS;  };
   recursion no;
-  zone "iamkiraz.lk" {
+  zone "thilankad.com" {
     type secondary;
     masters { 10.166.0.2; };
     file "/etc/bind/bind/zones/db.asia";
@@ -21,7 +21,7 @@ view "asia" {
 view "other" {
   match-clients { any; };
   recursion no;
-  zone "iamkiraz.lk" {
+  zone "thilankad.com" {
     type secondary;
     masters { 10.166.0.2; };
     file "/etc/bind/bind/zones/db.default";
