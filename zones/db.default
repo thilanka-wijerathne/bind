@@ -12,8 +12,8 @@ $TTL	604800
 @	IN	NS	ns1.thilankad.com.
 @       IN      NS      ns2.thilankad.com.
 
-ns1.thilankad.com.          IN      A       10.166.0.2
-ns2.thilankad.com.          IN      A       10.166.0.3
+ns1.thilankad.com.          IN      A       34.88.47.71
+ns2.thilankad.com.          IN      A       35.228.71.77
 
 thilankad.com.        IN      A      35.198.207.200
 www.thilankad.com.        IN      A     35.198.207.200 
