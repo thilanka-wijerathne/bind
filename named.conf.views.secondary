@@ -3,7 +3,7 @@ view "usa" {
   recursion no;
   zone "iamkiraz.tk" {
     type secondary;
-    masters { 10.166.0.2; };
+    masters { 34.88.47.71; };
     file "/etc/bind/bind/zones/db.usa";
   };
 };
@@ -13,7 +13,7 @@ view "asia" {
   recursion no;
   zone "iamkiraz.tk" {
     type secondary;
-    masters { 10.166.0.2; };
+    masters { 34.88.47.71; };
     file "/etc/bind/bind/zones/db.asia";
   };
 };
@@ -23,7 +23,7 @@ view "other" {
   recursion no;
   zone "iamkiraz.tk" {
     type secondary;
-    masters { 10.166.0.2; };
+    masters { 34.88.47.71; };
     file "/etc/bind/bind/zones/db.default";
   };
 };
